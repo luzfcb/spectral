@@ -1,6 +1,6 @@
 import { IFunction, IFunctionResult, Rule } from '../../../types';
 
-const pathRegex = /(\{[a-zA-Z0-9_-]+\})+/g;
+const pathRegex = /(\{[a-zA-Z0-9_-]+\}|(\{([a-zA-Z0-9_-]*)proxy\+\}$))+/g;
 
 export const oasPathParam: IFunction<Rule> = (targetVal, _options, paths, vals) => {
   const results: IFunctionResult[] = [];
