@@ -1,7 +1,7 @@
 {
-  "name": "@stoplight/spectral",
+  "name": "@luzfcb/spectral",
   "version": "0.0.0",
-  "description": "A flexible object linter with out of the box support for OpenAPI v2 and v3.",
+  "description": "A temporary fork of Stoplight Spectral.",
   "keywords": [
     "json linter",
     "linter",
@@ -13,12 +13,12 @@
     "API"
   ],
   "sideEffects": false,
-  "homepage": "https://github.com/stoplightio/spectral",
-  "bugs": "https://github.com/stoplightio/spectral/issues",
+  "homepage": "https://github.com/luzfcb/spectral",
+  "bugs": "https://github.com/luzfcb/spectral/issues",
   "author": "Stoplight <support@stoplight.io>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stoplightio/spectral"
+    "url": "https://github.com/luzfcb/spectral"
   },
   "license": "Apache-2.0",
   "main": "dist/index.js",

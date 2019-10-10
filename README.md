@@ -7,6 +7,14 @@
 
 A flexible JSON linter with out of the box support for OpenAPI v2 and v3.
 
+#### WARNING!
+
+> This is a temporary fork until https://github.com/stoplightio/spectral/issues/475 is fixed.
+>
+> Only an incomplete support for AWS API Gateway `{proxy+}` path parameter has been added.
+>
+> 
+
 ![Demo of Spectral linting an OpenAPI document from the CLI](./docs/img/demo.svg)
 
 ## Spectral Features
@@ -21,11 +29,11 @@ A flexible JSON linter with out of the box support for OpenAPI v2 and v3.
 ## Installation
 
 ```bash
-npm install -g @stoplight/spectral
+npm install -g @luzfcb/spectral
 
 # OR
 
-yarn global add @stoplight/spectral
+yarn global add @luzfcb/spectral
 ```
 
 For more installation options, see [Getting Started > Installation](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/getting-started/installation.md)
